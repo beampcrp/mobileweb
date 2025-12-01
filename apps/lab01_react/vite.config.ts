@@ -11,9 +11,9 @@ export default defineConfig({
     react(),
     legacy()
   ],
-  build : {
+  build: {
     outDir: path.resolve(__dirname, '../../docs/lab01_react'),
-  emptyOutDir: true
+    emptyOutDir: true
   },
   test: {
     globals: true,

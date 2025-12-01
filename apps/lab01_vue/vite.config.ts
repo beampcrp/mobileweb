@@ -11,12 +11,10 @@ export default defineConfig({
     vue(),
     legacy()
   ],
-  build : {
+  build: {
     outDir: path.resolve(__dirname, '../../docs/lab01_vue'),
-emptyOutDir: true
+    emptyOutDir: true
   },
-
- 
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
