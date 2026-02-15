@@ -1,70 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Video Demo</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Demo</title>
 
-  <style>
-    body {
-      margin: 0;
-      background: #000;
-      font-family: Arial, sans-serif;
-      color: white;
-    }
+    <style>
+      body {
+        margin: 0;
+        background: #000;
+        font-family: Arial, sans-serif;
+        color: white;
+      }
 
-    .header {
-      text-align: center;
-      padding: 20px;
-      background: #111;
-    }
+      .header {
+        text-align: center;
+        padding: 20px;
+        background: #111;
+      }
 
-    .header h1 {
-      margin: 0;
-      font-weight: 600;
-    }
+      .header h1 {
+        margin: 0;
+        font-weight: 600;
+      }
 
-    .video-container {
-      width: 100%;
-      height: calc(100vh - 80px);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: black;
-    }
+      .video-container {
+        width: 100%;
+        height: calc(100vh - 80px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: black;
+      }
 
-    video {
-      width: 100%;
-      height: 100%;
-      object-fit: contain; /* ไม่ครอป */
-    }
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* ไม่ครอป */
+      }
 
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: #111;
-      font-size: 14px;
-      color: #aaa;
-    }
-  </style>
-</head>
+      footer {
+        text-align: center;
+        padding: 15px;
+        background: #111;
+        font-size: 14px;
+        color: #aaa;
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
+    <div class="header">
+      <h1>Lab 07 - Firebase Authentication Demo</h1>
+    </div>
 
-  <div class="header">
-    <h1>Lab 07 - Firebase Authentication Demo</h1>
-  </div>
+    <div class="video-container">
+      <video controls autoplay>
+        <source src="video/Ionicvdo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
 
-  <div class="video-container">
-    <video controls autoplay>
-      <source src="Video/Ionicvdo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-
-  <footer>
-    © 2026 Mobile Web Application Development
-  </footer>
-
-</body>
+    <footer>© 2026 Mobile Web Application Development</footer>
+  </body>
 </html>
